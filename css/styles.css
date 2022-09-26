@@ -1,0 +1,252 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.navbar-brand, h2{
+  font-size: 3rem;
+}
+
+h2{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  color: #2e66f1;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2e66f1;
+  line-height: 1.5;
+  margin: 0 0 5rem;
+}
+
+h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2e66f1;
+  line-height: 1.5;
+}
+
+.card-btn, .hello-text, .nav-link {
+  font-size: 1.2rem;
+}
+
+/* Home Section */
+.home{
+  padding: 0 2% 5%;
+}
+
+
+/* Navbar */
+.navbar{
+  background-color: #fff;
+  padding: 0.5rem 3rem 0;
+  text-align: right;
+}
+
+.navbar-brand{
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 0 5rem;
+  font-weight: bold;
+  color: #2e66f1;
+}
+
+.navbar-brand:hover{
+  color: #2e66f1;
+}
+
+.nav-link{
+  color: #737373;
+  margin: 0 2rem;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: #2e66f1;
+}
+
+
+/* Home content */
+.home-content{
+  padding: 15% 0 4%;
+}
+
+/* Social media container */
+.left-container{
+  margin: 2% 0;
+}
+
+.media-icon{
+  margin: 10% 24%;
+  display: block;
+  transition: 0.5s;
+  width: 30px;
+  opacity: 0;
+}
+
+.media-icon:hover{
+  width: 40px;
+  transform: rotate(360deg);
+}
+
+
+/* Main container */
+.mid-container{
+  text-align: center;
+}
+
+.avatar-img{
+  width: 200px;
+  margin: 0 0 0.5rem 0;
+}
+
+.hello-text{
+  color: #737373;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.bio-text{
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: bold;
+  width: 15rem;
+  margin: auto;
+}
+
+.circle-img{
+  position: absolute;
+  right: 555px;
+  bottom: 120px;
+  z-index: -1;
+  width: 27%;
+  opacity: 5%;
+}
+
+
+/* Language container */
+.lang-img{
+  position: absolute;
+  width: 100px;
+}
+
+.css-img{
+  right: 100px;
+  top: 200px;
+  transform: rotate(-15deg);
+}
+
+.html-img{
+  right: 200px;
+  top: 450px;
+  transform: rotate(15deg);
+}
+
+.js-img{
+  right: 250px;
+  top: 300px;
+}
+
+
+
+/* Services section */
+.services{
+  background-color: #F2F2F2;
+  padding: 5%;
+}
+
+.card{
+  display: inline-block;
+  width: 20rem;
+  margin: 4%;
+  border-style: none;
+  border-radius: 15px;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.card-text{
+  width: 17rem;
+  margin: auto;
+}
+
+.card-btn{
+  font-weight: bold;
+  width: 7rem;
+  border-radius: 20px;
+  margin: 5%;
+}
+
+.card-btn:hover{
+  background-color: #5E17EB;
+}
+
+
+/* Portfolio section */
+.portfolio{
+  padding: 6rem;
+}
+
+.portfolio-img{
+  padding: 5rem;
+  border-radius: 30px;
+}
+
+
+
+/* About section */
+/* .about{
+  padding: 5%;
+  background-color: #F2F2F2;
+}
+
+.about-text{
+  width: 40rem;
+  padding: 3rem 0;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.vl {
+  border-left: 3px dotted gray;
+  height: 250px;
+} */
+
+@media (max-width: 1145px) {
+  .navbar-brand{
+    font-size: 2.5rem;
+    padding: 0 1.8rem;
+  }
+
+  .nav-link{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2;
+  }
+
+  .bio-text{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 15rem;
+    margin: auto;
+  }
+
+  .card{
+    width: 35rem;
+    margin: 4%;
+  }
+
+  .card-text{
+    width: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .card-btn{
+    font-size: 1.5rem;
+    width: 10rem;
+  }
+}
